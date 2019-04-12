@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NuiDemo</string>
+    <string name="hint_face">\tNo Face</string>
+</resources>

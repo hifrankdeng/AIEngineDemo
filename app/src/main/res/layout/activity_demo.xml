@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp" >
+    <SurfaceView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/surfaceview"/>
+    <com.wh.camapp.CanvasView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/rectview"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="60dp"
+                      android:background="#3aaa"
+                      android:padding="10dp">
+
+            <TextView
+                android:id="@+id/fps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="20dp"
+                android:text="FPS"
+                android:textColor="#fff"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#fff"/>
+        <LinearLayout
+            android:id="@+id/nodeListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/div_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="YSTen AI Research"
+        android:padding="10dp"
+        android:textColor="#bbb"
+        android:textSize="20sp"
+        android:background="#3aaa"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"/>
+    <RadioGroup
+        android:id="@+id/demoList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true">
+    </RadioGroup>
+</RelativeLayout>

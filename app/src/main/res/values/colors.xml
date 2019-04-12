@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="w">#DDFFFFFF</color>
+    <color name="bg">#24FFFFFF</color>
+    <color name="login_hint">#24FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="testColor">#0FDADC</color>
+    <color name="black">#000000</color>
+
+
+    <color name="angry">#EA3A3A</color>
+    <color name="disgust">#B24EFF</color>
+    <color name="fear">#0FDADC</color>
+    <color name="happy">#FFC833</color>
+    <color name="sad">#27CAFF</color>
+    <color name="surprise">#FF7646</color>
+    <color name="neutral">#33DB62</color>
+
+    <color name="textDeep">#30AEFF</color>
+    <color name="textShallow">#A2E8FF</color>
+
+
+
+</resources>
